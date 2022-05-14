@@ -1,0 +1,44 @@
+
+body {
+    /* 
+    Medidas Absolutas:
+    cm, mm, in, px, pt, pc
+
+    Medidas relativas:
+    em, ex, rem, vw, vh, %
+    geralmente 16px = 1 em
+
+    Iremos usar "px" e "em"
+    */
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #0F1D2B, #419FB7);
+    font-size: 1em;
+    font-weight: normal;
+    /* lighter, normal, bold, bolder */
+}
+
+main{
+    background-color: #F5F6EE;
+    border-radius: 15px;
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 10px 5px 15px black;
+}
+h1{
+    /* Existem as SHORTHAND parasimplicar o trabalho e a ordem é a seguinte:
+
+    1- font-style -> font-weight -> font-size -> font-family    
+    */
+    font: italic bold 3em 'Work Sans', sans-serif;
+
+    text-align: center;
+    color: #0F1D2B;
+}
+
+h2{
+    font: bold 2em 'Work Sans';
+}
+p{
+    text-align: justify;
+}

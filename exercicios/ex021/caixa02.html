@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+
+
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 5px 8px 12px 1px rgba(0, 0, 0, 0.300);
+        }
+        nav{
+            background-color: rgb(104, 104, 104);
+            padding: 3px;
+            box-shadow: 5px 8px 12px 1px rgba(0, 0, 0, 0.300);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color:rgb(54, 53, 53);
+
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body> 
+
+
+    <header>
+        <h1>Meu Website</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nemo minima eius, nesciunt nulla accusantium facere beatae quos rerum pariatur suscipit doloremque recusandae laudantium eos consequatur! Soluta, facilis enim! Alias!</p>
+                <aside>Artigo escrito por Tamyres Karyna</aside>
+            </article>
+
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Carlos Junior Dev</p>
+
+    </footer>
+
+    
+</body>
+</html>

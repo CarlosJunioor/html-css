@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/jinx.ico" type="image/x-icon">
+
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos.</h1>
+
+
+    <!-- usando a tag A é possivel criar links, e para ser um link externo deve ser utilizado target="_blank" rel="external" esta linha de comando faz com q o utilizador seja mandado para outro link, sem perder a pagina.-->
+
+    <p>Através deste <a href="https://github.com/CarlosJunioor" target="_blank" rel="external">link</a> você poderá aceder ao meu GitHub.</p>
+    <p>Você poderá acessar ao meu <a href="https://twitter.com/cajuslow" target="_blank" rel="external">twitter</a>
+
+    <h2>Usando Links internos</h2>
+    <p>Através deste link você poderá acessar a <a href="pag002.html" target="_blank" rel="external">página 2</a> do meu website.
+    </p>
+
+    <p>Testando novamento irei criar uma 3º Página, através deste <a href="pag003.html" target="_blank" rel="external">LINK</a>.</p>
+
+    <!-- Com o seguinte exemplo é utilizado o "nofollow" para quando n queremos oval pra aquela empresa.-->
+
+    <ul>
+        <li><a href="https://www.linkedin.com/feed/" target="_blank" rel="nofollow">Facebook</a></li>
+    </ul>
+
+
+    <!-- Com o seguinte exemplo podemos ver q é possivel através das listas realizar a conexão de links-->
+
+    <!-- _self é pra n ficar criando sempre uma aba nova, dentro do mesmo site, pq se não fica mt ruim-->
+    <hr>
+    <ul>
+        <li><a href="pag002.html" target="_self" rel="next">Página 2</a>
+        <li><a href="pag003.html" target="_self" rel="next">Página 3</a>
+        <li><a href="noticias/pag004.html" target="_self" rel="next">Página 4<a>
+    </ul>
+    
+    <!-- DOWNLOAD ATRAVÉS DE LINKS-->
+    
+    <hr>
+    <h2>Download de PDF</h2>
+    <a href="livros/livro1.pdf" download="livro1.pdf" type="application/pdf"><img src="https://pt.seaicons.com/wp-content/uploads/2015/11/download-2-icon.png" alt="Download"></a>
+
+</body>
+</html>
