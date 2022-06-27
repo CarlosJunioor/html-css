@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .caixa{
+            height: 800px;
+            display: flex;
+            flex-wrap:nowrap;
+            flex-direction: row;
+            background-color: grey;
+            justify-content: space-between;
+            align-items: center;
+        /* no eixo do flex: left center right flex-start flex-end left right space-around space-between /
+            align-items: stretch;
+        / no eixo contrário ao flex:flex-start flex-end center baseline stretch /
+            align-content: stretch;
+        / linhas: flex-start flex-end center space-between space-around stretch space-evenly*/
+        }
+        .caixa>div{
+            width: 100px;
+            background-color: white;
+            height: 200px;
+            text-align: center;
+
+            }
+        .caixa>div1{
+            min-width:900px;
+            background-color: black;
+            height: 200px;
+            text-align: center;
+            }
+        .caixa>div2{
+            
+            background-color:white;
+            height: 200px;
+            text-align: center;
+            }
+
+
+</style>
+        
+</head>
+<body>
+    <div class="caixa">
+        <div>
+        <p> Esquerda
+        </p>
+        </div>
+
+        <div1>
+            <p>Conteudo</p>
+        </div1>
+
+        <div2>
+        <p>Direita</p>
+        </div2>
+        
+        </div>
+    
+</body>
+</html>
